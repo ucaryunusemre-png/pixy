@@ -1,6 +1,6 @@
 {
-  "min_version": 2,
-  "latest_version": 2,
+  "min_version": 3,
+  "latest_version": 3,
   "force_update": true,
   "store_url": "https://play.google.com/store/apps/details?id=com.jellypuzzle.pixy",
   "message_tr": "JELICO'nun yeni ve daha akıcı sürümü yayınlandı! Hata düzeltmeleri ve yeni özellikler için lütfen Google Play üzerinden oyunu güncelleyin.",
