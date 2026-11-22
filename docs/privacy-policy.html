@@ -16,7 +16,7 @@ hr{margin:40px 0}
 <p><a href="#en">English version below ↓</a></p>
 
 <h1 id="tr">JELICO – Gizlilik Politikası</h1>
-<p><strong>Son güncelleme:</strong> 30 Ekim 2026<br>
+<p><strong>Son güncelleme:</strong> 22 Kasım 2026<br>
 <strong>Uygulama:</strong> JELICO (<code>com.jellypuzzle.pixy</code>)<br>
 <strong>Geliştirici / Veri sorumlusu:</strong> JELICO: Jelly Puzzle<br>
 <strong>İletişim:</strong> <a href="mailto:pixyjellypuzzle@gmail.com">pixyjellypuzzle@gmail.com</a></p>
@@ -26,7 +26,7 @@ hr{margin:40px 0}
 <h2>1. Topladığımız veriler</h2>
 <table>
 <tr><th>Veri</th><th>Amaç</th><th>Nerede saklanır</th></tr>
-<tr><td>Oyun ilerlemesi, puan, seviye, koleksiyon, başarımlar, ayarlar (ses, müzik, titreşim, dil)</td><td>Oyunun çalışması</td><td>Yalnızca cihazınızda</td></tr>
+<tr><td>Oyun ilerlemesi, puan, seviye, koleksiyon, başarımlar, ayarlar (ses, müzik, titreşim, dil)</td><td>Oyunun çalışması ve ilerlemenin korunması</td><td>Cihazınızda (ve isteğe bağlı Google Play girişi yapıldığında bulut yedeği olarak Google Firebase üzerinde)</td></tr>
 <tr><td>Anonim Firebase kimliği (UID)</td><td>Skorunuzu hesap bilgisi olmadan eşleştirmek</td><td>Google Firebase (Authentication)</td></tr>
 <tr><td>Oyuncu adı, lig, aylık skor</td><td>Küresel liderlik tablosu</td><td>Google Firebase Realtime Database (Avrupa, europe-west1)</td></tr>
 <tr><td>Google Play Oyunlar oyuncu kimliği/görünen ad, başarımlar (isteğe bağlı giriş)</td><td>Başarım ve oyuncu profili</td><td>Google Play Games Services</td></tr>
@@ -35,7 +35,7 @@ hr{margin:40px 0}
 <p>Ad, soyad, e-posta, telefon, konum, rehber, kamera, mikrofon veya fotoğraflarınıza erişmiyoruz ve bunları toplamıyoruz.</p>
 
 <h2>2. Misafir modu ve onay</h2>
-<p>Oyunu hesap bağlamadan "Misafir" olarak oynayabilirsiniz. Liderlik tablosuna veri gönderimi yalnızca ilk açılıştaki gizlilik onayını vermeniz halinde yapılır. Onayı vermezseniz skorlarınız sunucuya gönderilmez.</p>
+<p>Oyunu hesap bağlamadan "Misafir" olarak oynayabilirsiniz. Google Play Oyunlar hesabınızı bağladığınızda ilerlemeniz (bölüm, puan ve koleksiyon) cihaz değişimi veya yeniden yüklemede kaybolmaması için Firebase bulutunda yedeklenir. Sunucuya veri gönderimi yalnızca ilk açılıştaki gizlilik onayını vermeniz halinde yapılır.</p>
 
 <h2>3. Reklamlar</h2>
 <p>JELICO, Google AdMob aracılığıyla reklam gösterir. Google, reklam kimliğiniz gibi tanımlayıcıları kullanabilir. Cihaz ayarlarınızdan (Ayarlar → Google → Reklamlar) reklam kimliğinizi sıfırlayabilir veya kişiselleştirilmiş reklamları kapatabilirsiniz. Daha fazla bilgi: <a href="https://policies.google.com/privacy">policies.google.com/privacy</a>.</p>
@@ -50,7 +50,7 @@ hr{margin:40px 0}
 <p>Verilerinizi satmıyoruz.</p>
 
 <h2>5. Saklama süresi ve silme</h2>
-<p>Yerel veriler, uygulamayı kaldırdığınızda silinir. Firebase üzerindeki skor, oyuncu adı ve anonim kimlik verilerinin silinmesi için <a href="mailto:pixyjellypuzzle@gmail.com">pixyjellypuzzle@gmail.com</a> adresine uygulamadaki oyuncu adınızı belirterek yazın; talebiniz makul bir süre içinde (en geç 30 gün) yerine getirilir. Aylık skor kayıtları sezon sonunda silinebilir.</p>
+<p>Yerel veriler, uygulamayı kaldırdığınızda silinir. Firebase üzerindeki skor, bulut kaydı, oyuncu adı ve anonim kimlik verilerinin silinmesi için <a href="mailto:pixyjellypuzzle@gmail.com">pixyjellypuzzle@gmail.com</a> adresine uygulamadaki oyuncu adınızı belirterek yazın; talebiniz makul bir süre içinde (en geç 30 gün) yerine getirilir. Aylık skor kayıtları sezon sonunda silinebilir.</p>
 
 <h2>6. Güvenlik</h2>
 <p>Tüm sunucu iletişimi HTTPS ile şifrelenir. Hiçbir yöntem %100 güvenli değildir, ancak makul önlemleri alırız.</p>
@@ -67,7 +67,7 @@ hr{margin:40px 0}
 <hr>
 
 <h1 id="en">JELICO – Privacy Policy</h1>
-<p><strong>Last updated:</strong> October 30, 2026<br>
+<p><strong>Last updated:</strong> November 22, 2026<br>
 <strong>App:</strong> JELICO (<code>com.jellypuzzle.pixy</code>)<br>
 <strong>Developer / Data controller:</strong> JELICO: Jelly Puzzle<br>
 <strong>Contact:</strong> <a href="mailto:pixyjellypuzzle@gmail.com">pixyjellypuzzle@gmail.com</a></p>
@@ -77,7 +77,7 @@ hr{margin:40px 0}
 <h2>1. Data we collect</h2>
 <table>
 <tr><th>Data</th><th>Purpose</th><th>Where stored</th></tr>
-<tr><td>Game progress, score, level, collection, achievements, settings (sound, music, vibration, language)</td><td>Operating the game</td><td>On your device only</td></tr>
+<tr><td>Game progress, score, level, collection, achievements, settings (sound, music, vibration, language)</td><td>Operating the game and preserving progress</td><td>On your device (and backed up on Google Firebase if you optionally sign in with Google Play Games)</td></tr>
 <tr><td>Anonymous Firebase ID (UID)</td><td>Linking your score without account details</td><td>Google Firebase (Authentication)</td></tr>
 <tr><td>Player name, league, monthly score</td><td>Global leaderboard</td><td>Google Firebase Realtime Database (Europe, europe-west1)</td></tr>
 <tr><td>Google Play Games player ID/display name, achievements (optional sign-in)</td><td>Achievements and player profile</td><td>Google Play Games Services</td></tr>
@@ -86,7 +86,7 @@ hr{margin:40px 0}
 <p>We do not collect or access your name, email, phone number, location, contacts, camera, microphone or photos.</p>
 
 <h2>2. Guest mode and consent</h2>
-<p>You can play as a "Guest" without linking any account. Data is sent to the leaderboard only if you accept the privacy consent shown on first launch. If you decline, your scores are not sent to our servers.</p>
+<p>You can play as a "Guest" without linking any account. If you link your Google Play Games account, your progress (level, score and collection) is backed up on Firebase Cloud so it is not lost when reinstalling or switching devices. Data is sent to our servers only if you accept the privacy consent shown on first launch.</p>
 
 <h2>3. Advertising</h2>
 <p>JELICO shows ads through Google AdMob. Google may use identifiers such as your advertising ID. You can reset your advertising ID or opt out of personalized ads in your device settings (Settings → Google → Ads). More info: <a href="https://policies.google.com/privacy">policies.google.com/privacy</a>.</p>
@@ -101,7 +101,7 @@ hr{margin:40px 0}
 <p>We do not sell your data.</p>
 
 <h2>5. Retention and deletion</h2>
-<p>Local data is removed when you uninstall the app. To delete your score, player name and anonymous ID stored on Firebase, email <a href="mailto:pixyjellypuzzle@gmail.com">pixyjellypuzzle@gmail.com</a> with your in-game player name; we will process the request within a reasonable time (at most 30 days). Monthly score records may be deleted at the end of a season.</p>
+<p>Local data is removed when you uninstall the app. To delete your score, cloud save, player name and anonymous ID stored on Firebase, email <a href="mailto:pixyjellypuzzle@gmail.com">pixyjellypuzzle@gmail.com</a> with your in-game player name; we will process the request within a reasonable time (at most 30 days). Monthly score records may be deleted at the end of a season.</p>
 
 <h2>6. Security</h2>
 <p>All server communication is encrypted via HTTPS. No method is 100% secure, but we apply reasonable safeguards.</p>
