@@ -1,9 +1,11 @@
 {
-	"min_version": 5,
-	"latest_version": 7,
-	"latest_version_name": "1.0.5",
+	"min_version": 2,
+	"latest_version": 4,
+	"latest_version_name": "1.0.3",
+	"latest_version": 8,
+	"latest_version_name": "1.0.6",
 	"force_update": false,
 	"store_url": "https://play.google.com/store/apps/details?id=com.jellypuzzle.pixy",
-	"message_tr": "JELICO'nun yeni ve daha akıcı sürümü yayınlandı! Hata düzeltmeleri ve yeni özellikler için lütfen Google Play üzerinden oyunu güncelleyin.",
-	"message_en": "A new and smoother version of JELICO is out! Please update the game on Google Play for bug fixes and new features."
+	"message_tr": "JELICO'nun yeni ve daha akıcı sürümü yayınlandı! Hata düzeltmeleri ve iyileştirmeler için lütfen Google Play üzerinden oyunu güncelleyin.",
+	"message_en": "A new and smoother version of JELICO is out! Please update the game on Google Play for bug fixes and improvements."
 }
